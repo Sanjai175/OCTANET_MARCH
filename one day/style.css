@@ -1,0 +1,844 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Top */
+
+.page .top {
+    width: 100vw;
+    height: 50px;
+    background-color: #40A2E3;
+    color: whitesmoke;
+}
+
+.page .top .details {
+    display: flex;
+    padding: 10px;
+}
+
+.page .top .details i {
+    border: 1px solid;
+    padding: 5px;
+    background-color: whitesmoke;
+    color: #40A2E3;
+    border-radius: 5px;
+
+}
+
+.page .top .details .email {
+    display: flex;
+    margin: 0 20px;
+}
+
+
+.page .top .details .phone {
+    display: flex;
+    margin: 0 20px;
+}
+
+.page .top .details p {
+    margin: 5px 10px;
+}
+
+.page .top .details .media {
+    position: relative;
+    left: 600px;
+}
+
+.page .top .details .media i {
+    margin-left: 10px;
+    width: 30px;
+    text-align: center;
+}
+
+
+/* Container */
+.container {
+    background: url();
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container header {
+    background-color: whitesmoke;
+}
+
+.container header .logo {
+    position: relative;
+    top: 20px;
+    left: 40px;
+
+}
+
+.container header .logo span {
+    color: #40A2E3;
+}
+
+.container header .nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: right;
+}
+
+.container header .nav ul li {
+    margin: 10px 20px;
+    padding-right: 15px;
+    position: relative;
+    bottom: 10px;
+}
+
+.container header .nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/*  navbar*/
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    padding-left: 740px;
+    /*  border: 2px solid black;*/
+    width: 100%;
+    height: 70px;
+}
+
+ul li a {
+    text-decoration: none;
+    margin-right: 30px;
+    line-height: 70px;
+    color: black;
+}
+
+.nav .logo a {
+    margin-left: -700px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.logo a span {
+    color: aqua;
+    font-size: 28px;
+}
+
+.nav1 li {
+    display: none;
+}
+
+/* profile*/
+.profile img {
+    width: 100%;
+    position: relative;
+    border: 0px solid black;
+    background-size: cover;
+}
+
+/*about*/
+
+.about .left img {
+    position: relative;
+    height: 500px;
+    width: 500px;
+    /*  border: 2px solid black;*/
+    left: 0px;
+    top: 20px;
+}
+
+.about {
+    /*  border: 2px solid black;  */
+    height: 500px;
+}
+
+.about .left {
+    float: left;
+}
+
+.about .right {
+    position: relative;
+    top: 100px;
+    right: 50px;
+    float: right;
+    /*   border: 2px solid black;  */
+    width: 55%;
+}
+
+.right .p1 p {
+    color: aqua;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.right .p2 p {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.right .btn button {
+    background-color: aqua;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    margin-left: -10px;
+}
+
+/*services*/
+.services {
+    margin-top: 20px;
+    height: 650px;
+    width: 100%;
+    /*   border: 2px solid black;*/
+    background-color: rgb(217, 243, 243);
+}
+
+.services .head {
+    text-align: center;
+    /*   border: 2px solid black;  */
+}
+
+.services .head h5 {
+    color: aqua;
+    padding-top: 20px;
+}
+
+.services .head h4 {
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.services .cards .card {
+    height: 430px;
+    width: 300px;
+    /*  background-color: antiquewhite;*/
+    border: 9px solid rgb(255, 255, 255);
+    margin: auto;
+}
+
+.services .cards {
+    display: flex;
+    position: relative;
+    top: 40px;
+}
+
+.services .cards .card h6 {
+    padding-top: 10px;
+    font-weight: 600;
+    color: aqua;
+}
+
+.services .cards .card button {
+    background-color: aqua;
+    width: 120px;
+    height: 40px;
+    margin-left: 80px;
+    border: none;
+    border-radius: 10px;
+    color-scheme: white;
+}
+
+/*gallery*/
+.gallery {
+    width: 100%;
+    height: 750px;
+    /*    background-color: antiquewhite;
+  border: 2px solid black;  */
+}
+
+.gallery .head {
+    /*   border: 2px solid black;  */
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+
+.gallery .head h6 {
+    font-weight: 600;
+    font-size: 20px;
+    color: aqua;
+}
+
+.gallery .photo .p1 img {
+    height: 270px;
+    width: 300px;
+    background-color: blueviolet;
+    /*    border: 2px solid black; */
+    margin-left: 90px;
+}
+
+.gallery .photo {
+    display: flex;
+}
+
+.gallery .photo1 .p2 img {
+    height: 270px;
+    width: 300px;
+    background-color: blueviolet;
+    /*    border: 2px solid black;  */
+    margin-left: 90px;
+}
+
+.gallery .photo1 {
+    display: flex;
+    margin-top: 30px;
+}
+
+/*footer*/
+
+.footer {
+    position: relative;
+    top: 40px;
+    width: 100%;
+    height: 130px;
+    border: 0px solid black;
+    background-color: #40A2E3;
+
+}
+
+.footer .first i {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-right: 20px;
+    margin-top: 22px;
+}
+
+.footer .first {
+    display: flex;
+    border: 0px solid black;
+    width: max-content;
+    color: white;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer .btn button {
+    background-color: aqua;
+    padding: 15px;
+    border-radius: 15px;
+    width: 150px;
+    border: none;
+}
+
+.footer .btn {
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 30px;
+    width: 200px;
+    border: 0px solid black;
+}
+
+.footer .whatsapp {
+    position: absolute;
+    background-color: black;
+    display: flex;
+    width: 300px;
+    height: 80px;
+    top: 20px;
+    left: 70%;
+}
+
+.footer .whatsapp i {
+    font-size: 50px;
+    margin-right: 50px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+.whatsapp.detail {
+    margin-top: 10px;
+}
+
+.whatsapp .detail h4 {
+    margin-top: 10px;
+    color: white;
+}
+
+.whatsapp .detail p {
+    color: white;
+}
+
+/*lastfooter*/
+
+.lastfooter {
+    border: 0px solid black;
+    height: 400px;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    background-color: rgb(189, 188, 188);
+}
+
+.lastfooter h5 {
+    color: #05acca;
+}
+
+.lastfooter li {
+    list-style: none;
+}
+
+.foot {
+    position: absolute;
+    width: 100%;
+
+}
+
+.lastfooter .img img {
+    width: 90px;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.reachus {
+    border: 0px solid black;
+    width: 300px;
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+
+.reachus li {
+    margin-top: 10px;
+}
+
+.reachus i {
+    color: #05acca;
+}
+
+.reachus li {
+    text-decoration: none;
+}
+
+.reachus p {
+    margin-left: 16px;
+}
+
+
+.quicklinks {
+    position: relative;
+    left: 250px;
+    top: 50px;
+}
+
+.quicklinks li {
+    margin-top: 15px;
+}
+
+.followus {
+    position: relative;
+    left: 450px;
+    top: 50px;
+}
+
+.followus .logo h5 {
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+
+.followus .logo i {
+    margin-left: 10px;
+    background-color: rgb(255, 255, 255);
+    /*   border: 2px solid black;*/
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: aqua;
+    border-radius: 5px;
+
+}
+
+.followus .logo {
+    margin-left: 10px;
+
+}
+
+.followus .para {
+    margin-left: -45px;
+    margin-top: 20px;
+    line-height: 10px;
+}
+
+@media screen and (max-width:500px) {
+
+    /*profile */
+    .profile img {
+        width: 290px;
+    }
+
+    /*about*/
+
+    .about .left img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .about .right .p1 p {
+        font-size: 10px;
+    }
+
+    .about .right .p2 p {
+        font-size: 12px;
+    }
+
+    .right {
+        position: absolute;
+
+        width: 800px;
+        border: 0px solid black;
+    }
+
+    .about .right {
+        margin-top: -190px;
+        width: 180px;
+        margin-left: 300px;
+        right: 0;
+    }
+
+    .right .p1 {
+        border-bottom: 0px;
+        font-size: 10px;
+        margin-bottom: 19px;
+    }
+
+    .right .p2 p {
+        margin-top: -20px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+
+    .right .p3 p {
+        font-size: 9px;
+        margin-top: -20px;
+    }
+
+    .right .p3 span {
+        display: none;
+    }
+
+    .right .btn button {
+        width: max-content;
+        height: 20px;
+        line-height: 30px;
+        padding-top: 0;
+        line-height: 20px;
+        font-size: 9px;
+    }
+
+    .about {
+        border: 0px solid black;
+        height: 200px;
+        width: 290px;
+    }
+
+    /*services*/
+    .services {
+        width: 290px;
+        height: 300px;
+    }
+
+    .services .head {
+        border: 0px solid red;
+        width: 290px;
+        text-align: center;
+        margin-bottom: -20px;
+    }
+
+    .services .head h5 {
+        font-size: 10px;
+    }
+
+    .services .head h4 {
+        font-size: 13px;
+    }
+
+    .services .cards {
+        width: 290px;
+    }
+
+    .services .cards .card {
+        height: 150px;
+        width: 90px;
+        border: 1px solid white;
+    }
+
+    .services .cards .card h6 {
+        font-size: 9px;
+        margin-bottom: .7px;
+        margin-top: -5px;
+    }
+
+    .services .cards .card p {
+        font-size: 7px;
+        margin-top: 0px;
+    }
+
+    .services .cards .card button {
+        width: 50px;
+        height: 15px;
+        line-height: 15px;
+        font-size: 7px;
+        padding: 0;
+        margin-left: 19px;
+        margin-top: -11px;
+    }
+
+    /*gallery*/
+    .gallery {
+        width: 290px;
+        height: 330px;
+    }
+
+    .gallery .head h6 {
+        font-size: 9px;
+    }
+
+    .gallery .head h3 {
+        font-size: 13px;
+    }
+
+    .gallery .photo {
+        width: 290px;
+    }
+
+    .gallery .photo .p1 img {
+        width: 95px;
+        height: 120px;
+        margin: 1px;
+    }
+
+    .gallery .photo1 {
+        width: 290px;
+        margin-top: -0px;
+    }
+
+    .gallery .photo1 .p2 img {
+        width: 95px;
+        height: 120px;
+        margin: 1px;
+    }
+
+    /*footer*/
+    .foot {
+        width: 290px;
+    }
+
+    .foot .footer .first i {
+        font-size: 10px;
+        margin-top: 8px;
+    }
+
+    .foot .footer .first {
+        margin-left: 3px;
+    }
+
+    .foot .footer .first .email h2 {
+        font-size: 9px;
+        margin-bottom: 0px;
+    }
+
+    .foot .footer .first .email p {
+        font-size: 7px;
+    }
+
+    .foot .footer .first .email {
+        margin-left: -13px;
+    }
+
+    .foot .footer .btn button {
+        width: 55px;
+        height: 20px;
+        line-height: 10px;
+        padding: 0;
+        border-radius: 4px;
+        font-size: 8px;
+        margin-left: -1200px;
+        margin-top: 20px;
+    }
+
+    .foot .footer .whatsapp {
+        height: 40px;
+        width: 100px;
+        margin-left: -25px;
+    }
+
+    .footer .whatsapp i {
+        font-size: 15px;
+        margin-left: -10px;
+    }
+
+    .footer .whatsapp h4 {
+        font-size: 8px;
+        margin-bottom: 0px;
+        margin-left: -35px;
+    }
+
+    .footer .whatsapp p {
+        font-size: 7px;
+        margin-left: -35px;
+    }
+
+    /*lastfooter*/
+    .lastfooter .img img {
+        height: 20px;
+        width: 60px;
+        margin-left: 5px;
+    }
+
+    .lastfooter .reachus {
+        margin-left: -50px;
+    }
+
+    .lastfooter .reachus h5 {
+        font-size: 18px;
+    }
+
+    .lastfooter .reachus li {
+        font-size: 10px;
+    }
+
+    .lastfooter .reachus li b {
+        margin-left: 5px;
+    }
+
+    .lastfooter .reachus p {
+        font-size: 10px;
+        border: 0px solid black;
+        width: 150px;
+    }
+
+    .lastfooter {
+        height: 450px;
+    }
+
+    .lastfooter .quicklinks {
+        margin-left: -550px;
+        margin-top: 170px;
+    }
+
+    .lastfooter .quicklinks h5 {
+        font-size: 16px;
+    }
+
+    .lastfooter .quicklinks li {
+        font-size: 10px;
+    }
+
+    .lastfooter .followus {
+        margin-left: -170px;
+        margin-top: 170px;
+    }
+
+    .lastfooter .followus .logo h5 {
+        font-size: 16px;
+    }
+
+    .lastfooter .followus .para p {
+        font-size: 9px;
+        margin-left: 50px;
+    }
+
+    /*top*/
+    .page .top{
+        width: 290px;
+    }
+  
+    .top .details .email i {
+        position: absolute;
+        left: 0;
+        font-size: 11px;
+    }
+
+    .top .details .email p {
+        font-size: 10px;
+        margin-left: -2px;
+    }
+
+    .details .phone i {
+        font-size: 11px;
+        height: 21px;
+    }
+
+    .details .phone p {
+        font-size: 11px;
+        font-size: 9px;
+        margin-left: -15px;
+    }
+
+    .details .phone {
+        position: absolute;
+        left: 90px;
+    }
+
+    .page .top .details .media {
+        position: relative;
+        left: 85px;
+    }
+
+    .page .top .details .media i {
+        margin-left: 0px;
+        width: 20px;
+        height: 20px;
+        font-size: 10px;
+        text-align: center;
+    }
+/*nav*/
+.nav{
+   height: 50px;
+   width: 290px;
+  /* background-color: aquamarine; */
+   
+   
+}
+    
+.nav ul {
+    list-style: none;
+    display: flex;
+    padding-left: 20px;
+    /*  border: 2px solid black;*/
+    width: 100%;
+    height: 70px;
+    padding-top: 0px;
+}
+
+ul li a {
+    text-decoration: none;
+    margin-right: 10px;
+    line-height: 50px;
+    color: black;
+    font-size: 10px;
+   
+}
+
+.nav .logo a {
+    margin-left: -10px;
+    font-weight: 600;
+    font-size: 10px;
+    
+}
+
+.logo a span {
+    color: aqua;
+    font-size: 10px;
+    position: absolute;
+    left: 1px;
+
+}
+
+}
